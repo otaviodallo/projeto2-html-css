@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&family=Open+Sans:wght@400;600;700&family=Poppins:wght@100&display=swap');
+
+body{
+    margin: 0;
+}
+
+
+.header-content{
+    background-color: #1d539e;
+    text-align: center;
+    padding-top: 75px;
+    height: 375px;
+}
+
+.content2{
+    margin-top: 40px;
+
+}
+
+.planos{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+ul{
+    width: 345px;
+    height: 410px;
+    border-radius: 10px;
+    padding-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.basico{
+    margin-top: -170px;
+    background-color: #EDFEFB;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-radius: 10px;
+    border: #1d539e;
+}
+
+.free{
+    margin-top: -150px;
+    background-color: #EDFEFB;
+    border-radius: 10px;
+    border: #1d539e;
+}
+
+.professional{
+    margin-top: -150px;
+    background-color: #EDFEFB;
+    border-radius: 10px;
+    border: #1d539e;
+}
+
+
+.basico-header{
+    display: flex;
+    justify-content: space-between;
+    width: 385px;
+    height: 70px;
+    background-color: #FFCC29;
+    margin-left: -40px;
+    margin-top: -26px;
+    border-radius: 10px;
+}
+
+.button{
+    margin-right: 20px;
+    background-color: #1d539e;
+    border: none;
+    border-radius: 12px;
+    width: 92px;
+    height: 31px;
+    color: white;
+    margin-top: 20px;
+}
+
+.basico-header-header, .free-header-header, .professional-header-header{
+    margin-bottom: 30px;
+}
+
+.basico-li{
+    margin-left: 25px;
+    margin-top: 20px;
+    color: #1d539e;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.free-cat1, .basico-cat2, .professional-cat3{
+    font-size: 33px;
+}
+
+
+.text{
+    color:#828799;
+}
+
+
+.sign-button{
+    width: 300px;
+    height: 44px;
+    margin-top: 140px;
+    margin-left: 30px;
+    border-radius: 10px;
+    color: #1d539e;
+    background-color: white;
+    border: 1px solid #1d539e;
+}
+
+.sign-button-basico{
+    width: 300px;
+    height: 44px;
+    margin-top: 115px;
+    margin-left: 30px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: #1d539e;
+}
+
+.sign-button:hover{
+    background-color: #1d539e;
+    color: white;
+}
+
+.sign-button-basico:hover{
+    background-color: white;
+    border: 1px solid #1d539e;
+    color: #1d539e;
+}
